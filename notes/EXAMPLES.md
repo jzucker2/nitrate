@@ -6,11 +6,7 @@ A sample `Dockerfile` below:
 ARG NITRATE_VERSION=0.2.0
 FROM ghcr.io/jzucker2/nitrate:${NITRATE_VERSION} AS linux_base
 
-FROM linux_base AS pip_setup
-ARG PIP_VERSION=22.1.2
-RUN pip install pip==${PIP_VERSION}
-
-FROM pip_setup AS python_dependencies
+FROM linux_base AS python_dependencies
 COPY requirements.txt requirements.txt
 RUN pip install -r requirements.txt
 
