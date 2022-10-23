@@ -26,3 +26,14 @@ FROM seed_initial_data AS run_server
 # can use `run_dev.sh` or `run_prod.sh`
 CMD ["sh", "run_dev.sh"]
 ```
+
+## Dependencies
+
+This project's `requirements.txt` only covers the _added_ 
+dependencies from [filmstock](https://github.com/jzucker2/filmstock)
+
+For an example of dependencies for a Bluetooth Classic project, see `bt-requirements.txt`
+
+For an example of dependencies for a BLE project, see `ble-requirements.txt`
+
+Note: both dependencies are tracked and installed into base image here.
