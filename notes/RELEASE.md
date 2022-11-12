@@ -11,7 +11,8 @@ image, using [GitHub Actions.](https://github.com/features/actions)
 ```
 git checkout master
 git pull
-cat nitrate/app/version.py
+# no tracked file
+#cat nitrate/app/version.py
 
 git tag <version> -m "<Update message>"
 git tag 0.5.0 -m "Added first template sample project, along with updated docs"
