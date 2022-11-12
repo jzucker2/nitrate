@@ -1,4 +1,4 @@
-ARG FILMSTOCK_VERSION=0.7.8
+ARG FILMSTOCK_VERSION=0.7.9
 FROM ghcr.io/jzucker2/filmstock:${FILMSTOCK_VERSION} AS linux_base
 
 FROM linux_base as linux_dependencies

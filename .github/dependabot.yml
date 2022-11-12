@@ -42,3 +42,4 @@ updates:
       # bluetooth stuff
       - dependency-name: "dbus-fast"
       - dependency-name: "bleak"
+      - dependency-name: "Cython"
