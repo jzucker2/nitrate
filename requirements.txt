@@ -1,4 +1,6 @@
 async-timeout==4.0.2
-bleak==0.19.4
-Cython==0.29.32
-dbus-fast==1.73.0
+bleak==0.20.1
+bleak-retry-connector==3.0.2
+bluetooth-adapters==0.15.3
+Cython==0.29.34
+dbus-fast==1.84.2
