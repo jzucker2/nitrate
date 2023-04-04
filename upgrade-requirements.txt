@@ -1,0 +1,6 @@
+async-timeout
+bleak
+bleak-retry-connector
+bluetooth-adapters
+Cython
+dbus-fast
